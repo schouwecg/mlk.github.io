@@ -1,0 +1,166 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  body {
+      background-image: url("https://www.ineteconomics.org/uploads/featured/MLK_180703_200703.jpg");
+      color: white;
+      background-repeat: no-repeat;
+    }
+  
+  h1 {
+      font-family: 'Bungee Outline', sans-serif;
+      font-size: 60px;
+      line-height: 100%;
+      margin-left: 50px;
+      margin-top: 50px;
+     }
+  
+  h2 {
+  
+      margin-left: 50px;
+    }
+  
+  header {
+    width: 100%;
+    height: 50px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    }
+  
+  nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+    margin-left: 80%;
+    margin-top: 50px;
+   }
+  
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+   }
+  
+  nav > ul > li {
+    color: #A9A9A9;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+  }
+  
+  nav > ul > li:hover {
+    background-color: #dfdfe2;
+    color: #1b1b32;
+    cursor: pointer;
+  }
+  
+  li > a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  blockquote {
+    margin-top: 800px;
+    margin-left: 500px;
+    color: black;
+    padding: 5px;
+    height: 300px;
+    width: 750px;
+    text-align: center;
+ }
+  
+  #timeline {
+    color: black;
+    margin-top: 200px;
+    text-align: center;
+  }
+  
+  table {
+    color: black;
+    margin-left: 50px;
+  }
+  
+  .bold {
+    font-weight: 900;
+    padding-right: 20px;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .lines {
+    line-height: 1.5rem;
+  }
+  
+  .dream {
+    display: flex;
+    justify-content: center;
+    color: black;
+    }
+  
+  #img-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: left;
+    gap: 40px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  #img-div img {
+    width: 375px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  #img-div::after {
+    content: "";
+    width: 350px;
+  }
+  
+  #tribute-info {
+    font-family: tomaha;
+  }
+  
+  #image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #links{
+  color: black
+  }
+  
+  p {
+    color: black;
+    font-size: 16px;
+    font-family: Tomaha;
+  }
+  
+  #tribute-link {
+    color: black;
+  }
+  
+  .color {
+    color:  black;
+    font-size: 15px;
+}
